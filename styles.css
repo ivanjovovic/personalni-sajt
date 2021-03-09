@@ -385,7 +385,7 @@ li {
   color: #dd9a05;
 }
 
-a.btn {
+.dugme {
   display: inline-block;
   padding: 1rem 2rem;
   background: #dd9a05;
@@ -396,13 +396,13 @@ a.btn {
   transition: all 300ms ease-in-out;
 }
 
-a.btn:hover {
+.dugme:hover {
   transform: translateY(-3px);
   background-color: transparent;
   color: inherit;
 }
 
-a.btn:active {
+.dugme:active {
   transform: translateY(0px);
 }
 
@@ -705,4 +705,36 @@ footer p {
 
 footer p span {
   color: #dd9a05;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
