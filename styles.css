@@ -233,7 +233,7 @@ li {
 .hero {
   position: absolute;
   top: 50%;
-  transform: translate(25%, -70%);
+  transform: translate(25%, -50%);
   color: #fff;
 }
 
@@ -242,11 +242,11 @@ li {
 }
 
 .hero h1 {
-  font-size: 7.5rem;
+  font-size: 4.5rem;
 }
 
 .hero h4 {
-  font-size: 5rem;
+  font-size: 2rem;
 }
 .hero h4 span {
   color: #d10700;
