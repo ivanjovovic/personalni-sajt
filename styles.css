@@ -116,9 +116,10 @@ li {
   justify-content: space-between;
 }
 
-.logo h1 {
-  font-size: 2.5rem;
-  color: #fff;
+.logo img {
+  width: 60px;
+  height: 60px;
+  position: relative;
 }
 
 .logo h1 span {
