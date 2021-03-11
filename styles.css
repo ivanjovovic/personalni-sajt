@@ -120,6 +120,7 @@ li {
   width: 60px;
   height: 60px;
   position: relative;
+  padding-top: 10px;
 }
 
 .logo h1 span {
