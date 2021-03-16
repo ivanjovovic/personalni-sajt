@@ -752,3 +752,22 @@ footer p span {
     pointer-events: none;
   }
 }
+
+.jezik {
+  
+  width: 32px;
+  height: 32px;
+  background: url(https://www.countryflags.io/me/shiny/32.png);
+  background-size: cover;
+  padding: 0;
+  margin-left: 60px;
+}
+.jezik2 {
+  
+  width: 32px;
+  height: 32px;
+  background: url(https://www.countryflags.io/us/shiny/32.png);
+  background-size: cover;
+  padding: 0;
+  
+}
