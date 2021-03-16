@@ -214,6 +214,9 @@ li {
     align-items: start;
     padding: 1rem 1.6rem;
   }
+  .jezik {
+    margin-left: 0;
+  }
 
   body.show::before {
     content: "";
@@ -759,8 +762,9 @@ footer p span {
   height: 32px;
   background: url(https://www.countryflags.io/me/shiny/32.png);
   background-size: cover;
-  padding: 0;
   margin-left: 60px;
+  
+  
 }
 .jezik2 {
   
@@ -768,6 +772,6 @@ footer p span {
   height: 32px;
   background: url(https://www.countryflags.io/us/shiny/32.png);
   background-size: cover;
-  padding: 0;
+  
   
 }
